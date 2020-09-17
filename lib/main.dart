@@ -69,14 +69,20 @@ class _MyAppState extends State<MyApp> {
                 title: Text('Dzikir Pagi'),
                 trailing: Icon(Icons.keyboard_arrow_right),
                 onTap: () {
-                  pagi.DzikirPagi();
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => pagi.DzikirPagi() )
+                  );
                 },
               ),
               ListTile(
                 title: Text('Dzikir Petang'),
                 trailing: Icon(Icons.keyboard_arrow_right),
                 onTap: () {
-                  petang.DzikirPetang();
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => petang.DzikirPetang() )
+                  );
                 },
               ),
               ListTile(
@@ -292,7 +298,9 @@ class _MyAppState extends State<MyApp> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      petang.DzikirPetang();
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => petang.DzikirPetang() ));
                     },
                     child: Container(
                       width: 65,

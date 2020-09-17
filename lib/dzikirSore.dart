@@ -14,14 +14,14 @@ class DzikirPetang extends StatelessWidget {
         backgroundColor: Colors.purpleAccent,
         appBar: AppBar(
           backgroundColor: Colors.purpleAccent,
-          title:Text('Mesin Pencari Sunnah'),
+          title:Text('Dzikir Petang'),
         ),
         drawer: Drawer(
           child: ListView(
             padding: EdgeInsets.zero,
             children: <Widget>[
               DrawerHeader(
-                  child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU")
+                  child: Image.network("https://lh3.googleusercontent.com/XmhMoE93Z5RReEawJCL6ra38BmSZFzdrCu8GEg-N-ml2gt0-nvJULjUBebkIFR7wEg=h800")
               ),
               ListTile(
                 title: Text('Baca Alquran'),
@@ -88,7 +88,7 @@ class DzikirPetang extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -112,7 +112,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -137,7 +137,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -162,7 +162,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -187,7 +187,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -212,7 +212,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -237,7 +237,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -262,7 +262,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -287,7 +287,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -312,7 +312,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -337,7 +337,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -362,7 +362,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -387,7 +387,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -412,7 +412,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -437,7 +437,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -462,7 +462,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[
@@ -487,7 +487,7 @@ class DzikirPetang extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
-                    width: 450.0,
+                    width: 320.0,
                     child:Card(
                       child:Wrap(
                         children: <Widget>[

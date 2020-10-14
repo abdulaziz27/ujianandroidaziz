@@ -11,9 +11,9 @@ class DzikirPetang extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.purpleAccent,
+//        backgroundColor: Colors.purpleAccent,
         appBar: AppBar(
-          backgroundColor: Colors.purpleAccent,
+          backgroundColor: Colors.purple,
           title:Text('Dzikir Petang'),
         ),
         drawer: Drawer(

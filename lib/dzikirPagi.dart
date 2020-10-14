@@ -11,9 +11,9 @@ class DzikirPagi extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: Colors.purple,
         appBar: AppBar(
-          backgroundColor: Colors.purpleAccent,
+          backgroundColor: Colors.purple,
           title:Text('Dzikir Pagi'),
         ),
         drawer: Drawer(

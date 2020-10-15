@@ -43,7 +43,7 @@ class _WaktuSholatState extends State<waktuSholat> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.purple,
       body: SafeArea(
           child: Container(
             child: Column(children: <Widget>[

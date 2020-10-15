@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-//        backgroundColor: Colors.purple,
+        backgroundColor: Colors.purple,
         appBar: AppBar(
           elevation: 0,
           backgroundColor: Colors.purple,
@@ -386,7 +386,7 @@ class _MyAppState extends State<MyApp> {
                                       alignment: Alignment.center,),
                                   ),
                                   Padding(padding: EdgeInsets.all(4)),
-                                  Text('Histori Pencarian', textAlign: TextAlign.center, style: TextStyle(fontSize: 10),)
+                                  Text('Histori Pencarian', textAlign: TextAlign.center, style: TextStyle(fontSize: 9),)
                                 ]
                             ),
                             decoration: BoxDecoration(

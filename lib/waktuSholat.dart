@@ -76,12 +76,12 @@ class _WaktuSholatState extends State<waktuSholat> {
                                   decoration: BoxDecoration(
                                     borderRadius:
                                     BorderRadius.all(Radius.circular(5)),
-                                    color: Colors.teal[50],
+                                    color: Colors.purple[50],
                                   ),
                                   child: Text(
                                     _prayerTimes[position],
                                     style: TextStyle(
-                                        color: Colors.teal,
+                                        color: Colors.purple,
                                         fontSize: 20,
                                         fontFamily: 'Monserrat',
                                         fontWeight: FontWeight.bold),

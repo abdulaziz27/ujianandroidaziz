@@ -398,13 +398,12 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ]
                   ),
-                  SizedBox(height: 20.0,),
+                  SizedBox(height: 30.0,),
                   Container(
                     alignment: Alignment.center,
                     child: Text('Artikel Instan Untuk Antum', style: TextStyle(fontSize: 13, color: Colors.white) ),
                   ),
-                  SizedBox(height: 20.0,),
-
+                  SizedBox(height: 8.0,),
                 ],
               ),
             ),
@@ -422,7 +421,10 @@ class _MyAppState extends State<MyApp> {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         ListTile(
-                          leading: Image.network('https://www.ruparupa.com/blog/wp-content/uploads/2020/01/BERSAMA-CEGAH-VIRUS-CORONA-MENGEPIDEMI-INDONESIA.jpg', scale: 1.0),
+                          leading: Image.network('https://cdn-2.tstatic.net/newsmaker/foto/bank/images/update-corona-virus-dunia.jpg',
+                              width: 80,
+                              height: 120,
+                              scale: 1.0),
                           title: Text('Kapan Pandemi Ini Berakhir', style: TextStyle(color: Colors.black)),
                         ),
                       ],
@@ -445,7 +447,10 @@ class _MyAppState extends State<MyApp> {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         ListTile(
-                          leading: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEp07eartCHMtAC8ZdoTR2dwOKK8upkGBR4Q&usqp=CAU', scale: 1.0),
+                          leading: Image.network('https://d265bwk65zoq6.cloudfront.net/images/full/398a5a3243167c7fb295a30722138ad4c523940c_700x350.jpg',
+                              width: 80,
+                              height: 120,
+                              scale: 1.0),
                           title: Text('Keutamaan Sholat 5 Waktu', style: TextStyle(color: Colors.black)),
                         ),
                       ],
@@ -468,7 +473,10 @@ class _MyAppState extends State<MyApp> {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         ListTile(
-                          leading: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ28U9TQ0u1C-zjR9-17hrSpaKokYULRLQstA&usqp=CAU', scale: 1.0),
+                          leading: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ28U9TQ0u1C-zjR9-17hrSpaKokYULRLQstA&usqp=CAU',
+                              width: 80,
+                              height: 120,
+                              scale: 1.0),
                           title: Text('Keutamaan Membaca Alquran', style: TextStyle(color: Colors.black)),
                         ),
                       ],
